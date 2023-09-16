@@ -1,0 +1,11 @@
+"./Levitation.obj"
+"./Control/Application_Init.obj"
+"./Control/Current_Control_Loop.obj"
+"./Control/Filter.obj"
+"./Control/PID_controller.obj"
+"./Control/Position_Control_Loop.obj"
+"./device/F2837xD_CodeStartBranch.obj"
+"./device/device.obj"
+"../2837xD_RAM_lnk_cpu1.cmd"
+"C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/ccs/Debug/driverlib.lib"
+-llibc.a
