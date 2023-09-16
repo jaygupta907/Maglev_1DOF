@@ -21,7 +21,7 @@ float Current_Control_Loop(float Current_Voltage , float Current_setpoint)
         Current_PID_out=0;
     }
     Current_PID_out = Current_PID_out/Max_Voltage;
-    period = (uint32_t)(2500-Current_PID_out*2500);
+    period = (uint32_t)(1500-Current_PID_out*2500);
     EPWM_setCounterCompareValue(EPWM2_BASE, EPWM_COUNTER_COMPARE_B,period);
     return period;
 }
