@@ -1,7 +1,7 @@
 # FIXED
 
 Levitation.obj: ../Levitation.c
-Levitation.obj: D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/device/driverlib.h
+Levitation.obj: C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/device/driverlib.h
 Levitation.obj: C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/inc/hw_memmap.h
 Levitation.obj: C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/adc.h
 Levitation.obj: C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include/stdbool.h
@@ -86,14 +86,14 @@ Levitation.obj: C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/upp.h
 Levitation.obj: C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/inc/hw_upp.h
 Levitation.obj: C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/version.h
 Levitation.obj: C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/driver_inclusive_terminology_mapping.h
-Levitation.obj: D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/device/device.h
-Levitation.obj: D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/Control/Application_Init.h
-Levitation.obj: D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/Control/Position_Control_Loop.h
-Levitation.obj: D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/Control/Current_Control_Loop.h
+Levitation.obj: C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/device/device.h
+Levitation.obj: C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/Control/Application_Init.h
+Levitation.obj: C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/Control/Position_Control_Loop.h
+Levitation.obj: C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/Control/Current_Control_Loop.h
 
 ../Levitation.c:
 
-D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/device/driverlib.h:
+C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/device/driverlib.h:
 
 C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/inc/hw_memmap.h:
 
@@ -263,11 +263,11 @@ C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/version.h:
 
 C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/driver_inclusive_terminology_mapping.h:
 
-D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/device/device.h:
+C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/device/device.h:
 
-D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/Control/Application_Init.h:
+C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/Control/Application_Init.h:
 
-D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/Control/Position_Control_Loop.h:
+C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/Control/Position_Control_Loop.h:
 
-D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/Control/Current_Control_Loop.h:
+C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/Control/Current_Control_Loop.h:
 

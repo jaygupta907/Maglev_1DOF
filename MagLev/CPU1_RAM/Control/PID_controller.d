@@ -1,9 +1,9 @@
 # FIXED
 
 Control/PID_controller.obj: ../Control/PID_controller.c
-Control/PID_controller.obj: D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/Control/PID_controller.h
+Control/PID_controller.obj: C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/Control/PID_controller.h
 
 ../Control/PID_controller.c:
 
-D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/Control/PID_controller.h:
+C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/Control/PID_controller.h:
 

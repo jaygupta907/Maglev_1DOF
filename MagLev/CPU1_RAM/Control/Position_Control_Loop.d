@@ -1,8 +1,8 @@
 # FIXED
 
 Control/Position_Control_Loop.obj: ../Control/Position_Control_Loop.c
-Control/Position_Control_Loop.obj: D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/Control/Current_Control_Loop.h
-Control/Position_Control_Loop.obj: D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/Control/Position_Control_Loop.h
+Control/Position_Control_Loop.obj: C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/Control/Current_Control_Loop.h
+Control/Position_Control_Loop.obj: C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/Control/Position_Control_Loop.h
 Control/Position_Control_Loop.obj: C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include/stdint.h
 Control/Position_Control_Loop.obj: C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include/_ti_config.h
 Control/Position_Control_Loop.obj: C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include/linkage.h
@@ -15,7 +15,7 @@ Control/Position_Control_Loop.obj: C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-c2000
 Control/Position_Control_Loop.obj: C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include/sys/_stdint.h
 Control/Position_Control_Loop.obj: ../Control/PID_controller.h
 Control/Position_Control_Loop.obj: ../Control/Filter.h
-Control/Position_Control_Loop.obj: D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/device/driverlib.h
+Control/Position_Control_Loop.obj: C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/device/driverlib.h
 Control/Position_Control_Loop.obj: C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/inc/hw_memmap.h
 Control/Position_Control_Loop.obj: C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/adc.h
 Control/Position_Control_Loop.obj: C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include/stdbool.h
@@ -90,13 +90,13 @@ Control/Position_Control_Loop.obj: C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/
 Control/Position_Control_Loop.obj: C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/inc/hw_upp.h
 Control/Position_Control_Loop.obj: C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/version.h
 Control/Position_Control_Loop.obj: C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/driver_inclusive_terminology_mapping.h
-Control/Position_Control_Loop.obj: D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/device/device.h
+Control/Position_Control_Loop.obj: C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/device/device.h
 
 ../Control/Position_Control_Loop.c:
 
-D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/Control/Current_Control_Loop.h:
+C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/Control/Current_Control_Loop.h:
 
-D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/Control/Position_Control_Loop.h:
+C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/Control/Position_Control_Loop.h:
 
 C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include/stdint.h:
 
@@ -122,7 +122,7 @@ C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-c2000_22.6.0.LTS/include/sys/_stdint.h:
 
 ../Control/Filter.h:
 
-D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/device/driverlib.h:
+C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/device/driverlib.h:
 
 C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/inc/hw_memmap.h:
 
@@ -272,5 +272,5 @@ C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/version.h:
 
 C:/ti/C2000Ware_4_03_00_00/driverlib/f2837xd/driverlib/driver_inclusive_terminology_mapping.h:
 
-D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/device/device.h:
+C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/device/device.h:
 

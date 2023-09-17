@@ -75,6 +75,7 @@ __interrupt void adcB1ISR(void);
 void main(void)
 
 {
+
     SysCtl_selectClockOutSource(SYSCTL_CLOCKOUT_SYSCLK);
 
     Device_init();

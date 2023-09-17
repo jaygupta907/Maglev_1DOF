@@ -1,9 +1,9 @@
 # FIXED
 
 Control/Filter.obj: ../Control/Filter.c
-Control/Filter.obj: D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/Control/Filter.h
+Control/Filter.obj: C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/Control/Filter.h
 
 ../Control/Filter.c:
 
-D:/Avishkar_Hyperloop/Levitation_codes/MagLev_bidirectional/Control/Filter.h:
+C:/Users/jaygu/Desktop/Avishkar\ Hyperloop\ 7.0/Maglev_1DOF/MagLev/Control/Filter.h:
 
