@@ -1,7 +1,7 @@
 ******************************************************************************
              TMS320C2000 Linker PC v22.6.0                     
 ******************************************************************************
->> Linked Mon Sep 18 14:39:59 2023
+>> Linked Mon Sep 18 20:14:47 2023
 
 OUTPUT FILE NAME:   <MagLev.out>
 ENTRY POINT SYMBOL: "code_start"  address: 00000000
@@ -13,7 +13,7 @@ MEMORY CONFIGURATION
 ----------------------  --------  ---------  --------  --------  ----  --------
 PAGE 0:
   BEGIN                 00000000   00000002  00000002  00000000  RWIX
-  RAMM0                 00000123   000002dd  0000004c  00000291  RWIX
+  RAMM0                 00000123   000002dd  00000050  0000028d  RWIX
   RAMLS0                00008000   00000800  00000800  00000000  RWIX
   RAMLS1                00008800   00000800  0000077f  00000081  RWIX
   RAMLS2                00009000   00000800  00000000  00000800  RWIX
@@ -72,12 +72,13 @@ codestart
 *          0    00000000    00000002     
                   00000000    00000002     F2837xD_CodeStartBranch.obj (codestart)
 
-.cinit     0    00000128    00000048     
-                  00000128    00000034     (.cinit..data.load) [load image, compression = lzss]
-                  0000015c    00000006     (__TI_handler_table)
-                  00000162    00000004     (.cinit..bss.load) [load image, compression = zero_init]
-                  00000166    00000002     --HOLE-- [fill = 0]
-                  00000168    00000008     (__TI_cinit_table)
+.cinit     0    00000128    0000004c     
+                  00000128    00000037     (.cinit..data.load) [load image, compression = lzss]
+                  0000015f    00000001     --HOLE-- [fill = 0]
+                  00000160    00000006     (__TI_handler_table)
+                  00000166    00000004     (.cinit..bss.load) [load image, compression = zero_init]
+                  0000016a    00000002     --HOLE-- [fill = 0]
+                  0000016c    00000008     (__TI_cinit_table)
 
 .reset     0    003fffc0    00000000     DSECT
 
@@ -235,21 +236,21 @@ MODULE SUMMARY
        Total:                        363    0         10     
                                                              
        Stack:                        0      0         1016   
-       Linker Generated:             0      70        0      
+       Linker Generated:             0      73        0      
     +--+-----------------------------+------+---------+---------+
-       Grand Total:                  6021   750       1182   
+       Grand Total:                  6021   753       1182   
 
 
 LINKER GENERATED COPY TABLES
 
-__TI_cinit_table @ 00000168 records: 2, size/record: 4, table size: 8
-	.data: load addr=00000128, load size=00000034 bytes, run addr=0000ab24, run size=00000052 bytes, compression=lzss
-	.bss: load addr=00000162, load size=00000004 bytes, run addr=0000aac0, run size=00000064 bytes, compression=zero_init
+__TI_cinit_table @ 0000016c records: 2, size/record: 4, table size: 8
+	.data: load addr=00000128, load size=00000037 bytes, run addr=0000ab24, run size=00000052 bytes, compression=lzss
+	.bss: load addr=00000166, load size=00000004 bytes, run addr=0000aac0, run size=00000064 bytes, compression=zero_init
 
 
 LINKER GENERATED HANDLER TABLE
 
-__TI_handler_table @ 0000015c records: 3, size/record: 2, table size: 6
+__TI_handler_table @ 00000160 records: 3, size/record: 2, table size: 6
 	index: 0, handler: __TI_zero_init
 	index: 1, handler: __TI_decompress_lzss
 	index: 2, handler: __TI_decompress_none
@@ -385,11 +386,11 @@ page  address   name
 0     00008ba9  SysCtl_selectOscSource                   
 0     00008800  SysCtl_selectXTAL                        
 0     000083fa  SysCtl_setClock                          
-0     00000168  __TI_CINIT_Base                          
-0     00000170  __TI_CINIT_Limit                         
-0     00000170  __TI_CINIT_Warm                          
-0     0000015c  __TI_Handler_Table_Base                  
-0     00000162  __TI_Handler_Table_Limit                 
+0     0000016c  __TI_CINIT_Base                          
+0     00000174  __TI_CINIT_Limit                         
+0     00000174  __TI_CINIT_Warm                          
+0     00000160  __TI_Handler_Table_Base                  
+0     00000166  __TI_Handler_Table_Limit                 
 1     000007f8  __TI_STACK_END                           
 abs   000003f8  __TI_STACK_SIZE                          
 0     00008d61  __TI_auto_init_nobinit_nopinit           
@@ -441,11 +442,11 @@ page  address   name
 ----  -------   ----                                     
 0     00000000  code_start                               
 0     00000123  SysCtl_delay                             
-0     0000015c  __TI_Handler_Table_Base                  
-0     00000162  __TI_Handler_Table_Limit                 
-0     00000168  __TI_CINIT_Base                          
-0     00000170  __TI_CINIT_Limit                         
-0     00000170  __TI_CINIT_Warm                          
+0     00000160  __TI_Handler_Table_Base                  
+0     00000166  __TI_Handler_Table_Limit                 
+0     0000016c  __TI_CINIT_Base                          
+0     00000174  __TI_CINIT_Limit                         
+0     00000174  __TI_CINIT_Warm                          
 0     000080ab  Device_init                              
 0     000080eb  Device_enableAllPeripherals              
 0     000081d6  Device_initGPIO                          
