@@ -105,7 +105,7 @@ void main(void)
     initADCSOCB();
     PinMux_init();
     Application_Init();
-
+    DEVICE_DELAY_US(1000);
 
     Interrupt_enable(INT_ADCA1);
     Interrupt_enable(INT_ADCB1);
